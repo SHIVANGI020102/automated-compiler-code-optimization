@@ -1,0 +1,2 @@
+program_id,category,original_cost,final_cost,cost_reduction_percent,iterations,output_match
+1,"Mixed",20,8,60.00,8,PASS

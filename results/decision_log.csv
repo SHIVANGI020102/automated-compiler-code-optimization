@@ -1,0 +1,9 @@
+program_id,iteration,optimization,instruction,verified,cost_before,cost_after,decision,reason
+1,1,"CONSTANT FOLDING",1,PASS,20,19,ACCEPTED,"Correct and cheaper"
+1,2,"ALGEBRAIC SIMPLIFICATION",2,PASS,19,18,ACCEPTED,"Correct and cheaper"
+1,3,"ALGEBRAIC SIMPLIFICATION",5,PASS,18,17,ACCEPTED,"Correct and cheaper"
+1,4,"COMMON SUBEXPRESSION ELIMINATION",4,PASS,17,16,ACCEPTED,"Correct and cheaper"
+1,5,"COPY PROPAGATION",2,PASS,16,14,ACCEPTED,"Correct and cheaper"
+1,6,"COPY PROPAGATION",3,PASS,14,12,ACCEPTED,"Correct and cheaper"
+1,7,"DEAD CODE ELIMINATION",3,PASS,12,10,ACCEPTED,"Correct and cheaper"
+1,8,"DEAD CODE ELIMINATION",3,PASS,10,8,ACCEPTED,"Correct and cheaper"

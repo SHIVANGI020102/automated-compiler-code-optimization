@@ -1,0 +1,4 @@
+optimizer
+*.o
+.DS_Store
+
