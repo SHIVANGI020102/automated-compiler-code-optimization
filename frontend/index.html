@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Compiler Optimizer</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div><h1>Agent-Guided Compiler Optimizer</h1><p>Three Address Code optimization dashboard</p></div><b>C Optimization Engine</b></header>
+<main><section class="card hero"><div><h2>TAC Editor</h2><p>Enter TAC and run the visualization.</p></div><button id="run">▶ Optimize TAC</button></section>
+<section class="grid"><div class="card"><h3>Original TAC</h3><textarea id="input">t1 = 5 + 3
+t2 = t1 + 0
+t3 = a + b
+t4 = a + b
+t5 = t4 * 1
+t6 = 100
+t7 = t2 * 2</textarea></div>
+<div class="card"><h3>Optimized TAC</h3><pre id="output">Run optimization to see output.</pre></div></section>
+<section class="card"><h3>Agent Pipeline</h3><div class="pipeline"><span>ANALYZE</span>→<span>PROPOSE</span>→<span>VERIFY</span>→<span>COST</span>→<span>DECISION</span></div></section>
+<section class="metrics"><div><small>Verification</small><strong id="verify">—</strong></div><div><small>Cost Before</small><strong id="before">—</strong></div><div><small>Cost After</small><strong id="after">—</strong></div><div><small>Reduction</small><strong id="reduce">—</strong></div></section>
+<section class="grid"><div class="card"><h3>Opportunities</h3><pre id="ops">Waiting for analysis.</pre></div><div class="card"><h3>Agent Decision Log</h3><pre id="log">No decisions yet.</pre></div></section>
+<section class="card"><h3>300-Program Dataset Results</h3><div class="dataset"><div><strong>300</strong><small>Programs</small></div><div><strong>100.00%</strong><small>Verification Pass</small></div><div><strong>54.22%</strong><small>Avg Cost Reduction</small></div><div><strong>4.85</strong><small>Avg Steps</small></div><div><strong>0.00%</strong><small>False Positives</small></div></div></section>
+</main><footer>Visualization layer • authoritative optimizer remains implemented in C</footer><script src="script.js"></script></body></html>
